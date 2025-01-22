@@ -79,11 +79,21 @@ textarea {
   }
 }
 
-button {
-  padding: 15px 30px;
+.btn-container {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Btn {
+  padding: 10px 25px;
   background-color: #c9c9ca;
-  width: 80%;
-  height: 25%;
+  width: 70%;
+  height: 20%;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -95,13 +105,11 @@ button {
   border-radius: 16px;
 }
 
-.btn-container {
-  width: 25%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.resetBtn {
+  width: 60%;
+  height: 15%;
+  background-color: #000;
+  color: #fff;
 }
 
 button:hover {
